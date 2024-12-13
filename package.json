@@ -1,0 +1,25 @@
+{
+  "name": "mern-school-management-system",
+  "version": "1.0.0",
+  "description": "![YouTube Thumbnail](https://github.com/yatunyi15075/Mern-School-Management-System/blob/master/frontend/src/assets/YouTube_Thumbnail.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run dev-backend\" \"npm run dev-frontend\"",
+    "dev-backend": "npm run dev --prefix backend",
+    "dev-frontend": "npm start --prefix frontend",
+    "build": "npm run build --prefix frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "nodemon": "^3.1.7"
+  }
+}
